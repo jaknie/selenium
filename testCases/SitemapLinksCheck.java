@@ -17,7 +17,7 @@ public class SitemapLinksCheck {
 	@Before
 	public void driverInitialize() {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jknie\\eclipse-workspace\\POMexample\\ChromeDriver\\chromedriver.exe"); 
+		System.setProperty("webdriver.chrome.driver", "ChromeDriver\\chromedriver.exe"); 
 		driver = new ChromeDriver(); 
 	}
 	
